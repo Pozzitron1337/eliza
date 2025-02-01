@@ -1,0 +1,13 @@
+{
+    "name": "@elizaos/plugin-grindurus",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsup src/index.ts --dts",
+      "start": "node dist/index.js"
+    },
+    "dependencies": {
+      "@elizaos/core": "workspace:*"
+    }
+  }
